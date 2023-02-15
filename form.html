@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Page</title>
+    <link rel="stylesheet" href="form_page.css" />
+    <script src="forpage.js"></script>
+  </head>
+  <body>
+    <div id="navbar_form">
+      <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+          >&times;</a
+        >
+        <a href="#">Internationalization</a>
+        <a href="#">Resource Management</a>
+        <a href="#">Marketing And Branding</a>
+        <a href="#">Policy and Process</a>
+        <a href="#">Focus Area(s)</a>
+      </div>
+      <span onclick="openNav()" style="font-size: 25px">&#9776;</span>
+      <p class="navbar_heading">
+        Directorate Of <br />International Collaborations
+      </p>
+    </div>
+
+    <div id="the_body">
+      <div class="container">
+        <h1 class="form-title">
+          International/Number Of New MoU's Facilated With
+          Universities(National/International)
+        </h1>
+        <form action="#">
+          <div class="main-user-info">
+            <div class="user-input-box">
+              <label for="fullName">1. Department</label>
+              <input
+                type="text"
+                id="fullName"
+                name="fullName"
+                placeholder="Enter Department"
+              />
+            </div>
+            <div class="user-input-box">
+              <label for="username">2. Name of the organization</label>
+              <input
+                type="text"
+                id="username"
+                name="username"
+                placeholder="Organization"
+              />
+            </div>
+            <div class="user-input-box">
+              <label for="Date">3. Date of Signing</label>
+              <input type="date" name="Date" />
+            </div>
+            <div class="user-input-box">
+              <label for="QS_Rank">4. Does the MoU is with QS/Rank</label>
+              <select name="QS_Rank">
+                <option value="Yes">Yes</option>
+                <option value="No">No</option>
+              </select>
+            </div>
+            <div class="user-input-box">
+              <label for="Rank">5. Rank Of the Institute</label>
+              <input type="number" name="Rank" placeholder="Rank" />
+            </div>
+            <div class="user-input-box">
+              <label for="Duration">6. Duration of MoU in years</label>
+              <input
+                type="number"
+                name="Duration"
+                id="Duration"
+                placeholder="Duration in Years"
+              />
+            </div>
+            <div class="user-input-box">
+              <label for="Activity">7.Name of Activities</label>
+              <input
+                type="text"
+                id="Activity"
+                name="Activity"
+                placeholder="Name of Activities"
+              />
+            </div>
+
+            <div class="user-input-box">
+              <label for="Noofactivity"
+                >8. Total No. of Activities under each MoU</label
+              >
+              <input
+                type="number"
+                name="Noofactivity"
+                id="Noofactivity"
+                placeholder="No. Of Activities"
+              />
+            </div>
+            <div class="user-input-box">
+              <label for="noofstudents"
+                >9. No. of Students/Teacher participated under MoU</label
+              >
+              <input
+                type="number"
+                id="noofstudents"
+                name="noofstudents"
+                placeholder="No. Of Students"
+              />
+            </div>
+            <div class="user-input-box">
+              <label for="Mylink">10. Link of MoU Copy</label>
+              <input
+                type="text"
+                id="Mylink"
+                name="Mylink"
+                placeholder="Link Of Uploaded Files"
+              />
+            </div>
+            <div class="user-input-box">
+              <label for="myfile"
+                >11.Link of all activities under the MoU in PDF</label
+              >
+              <input type="file" id="myfile" name="myfile" />
+            </div>
+            <div class="user-input-box">
+              <label for="username">12.Comments</label>
+              <input
+                type="text"
+                id="username"
+                name="username"
+                placeholder="Any Comments"
+              />
+            </div>
+
+            <div class="form-submit-btn">
+              <input type="submit" value="Register" />
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
